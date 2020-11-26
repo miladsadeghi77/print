@@ -14,7 +14,7 @@ public class Print {
         private static void printOutput() {
             Scanner scanner = new Scanner(System.in);
             String str = scanner.next();
-            if (!str.equals("exit"))
+            if (str.equals("exit"))
                 flag = false;
             else {
                 int number = scanner.nextInt();
